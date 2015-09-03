@@ -19,6 +19,11 @@ Usage
     }));
     win.open();
 }();
+
 ```
 
+Screencast
+----------
+
+![](https://github.com/AppWerft/Ti.360degreeView/raw/master/360view.gif)
 

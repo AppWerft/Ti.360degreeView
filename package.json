@@ -1,7 +1,7 @@
 {
   "name": "Ti.360degreeView",
   "version": "1.0.0",
-  "description": "Welcome to your Appcelerator Titanium Mobile Project",
+  "description": "360° View for product images (taken from round table)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,13 @@
     "type": "git",
     "url": "https://github.com/AppWerft/Ti.360degreeView.git"
   },
-  "author": "",
-  "license": "ISC",
+  "titaniumManifest": {
+    "guid": "5892bd76-346e-05c1-114c-c718f1dc260c",
+    "moduleid" :"de.appwerft.view360",
+    "name" : "Ti.360°View"
+  },
+  "author": "Rainer Schleevoigt",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AppWerft/Ti.360degreeView/issues"
   },

@@ -1,9 +1,9 @@
-### TI.360°VIEW ###
+### Ti.360°VIEW ###
 
 This module allows to display 360° product photos. Currently we use single images. In futures we can use sprites.
 
 Usage
-=====
+-----
 
 ```javascript
 

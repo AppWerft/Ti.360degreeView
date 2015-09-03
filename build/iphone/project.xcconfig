@@ -1,0 +1,8 @@
+TI_VERSION=4.1.0
+TI_SDK_DIR=/Users/fuerst/Library/Application Support/Titanium/mobilesdk/osx/$(TI_VERSION).GA/iphone
+TI_APPID=de.appwerft.view360
+JSCORE_LD_FLAGS=-weak_framework JavaScriptCore
+TICORE_LD_FLAGS=-weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore
+OTHER_LDFLAGS[sdk=iphoneos*]=$(inherited) $(TICORE_LD_FLAGS)
+OTHER_LDFLAGS[sdk=iphonesimulator*]=$(inherited) $(TICORE_LD_FLAGS)
+#include "module"

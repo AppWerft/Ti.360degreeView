@@ -1,18 +1,24 @@
-Welcome to your Appcelerator Titanium Mobile Project
+### TI.360°VIEW ###
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+This module allows to display 360° product photos. Currently we use single images. In futures we can use sprites.
 
+Usage
+=====
 
+```javascript
 
-----------------------------------
-Stuff our legal folk make us say:
+! function() {
+    var win = Ti.UI.createWindow();
+    var View360 = require('de.appwerft.view360');
+    var images = [];
+    for (var i = 1; i < 29; i++) images.push('/images/' + i + '.JPG');
+    win.add(View360.createView({
+        width : 320,
+        height : 240,
+        images : images
+    }));
+    win.open();
+}();
+```
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
 

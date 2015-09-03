@@ -2,6 +2,11 @@
 
 This module allows to display 360° product photos. Currently we use single images. In futures we can use sprites.
 
+Screencast
+----------
+
+![](https://github.com/AppWerft/Ti.360degreeView/raw/master/360view.gif)
+
 Usage
 -----
 
@@ -22,8 +27,5 @@ Usage
 
 ```
 
-Screencast
-----------
 
-![](https://github.com/AppWerft/Ti.360degreeView/raw/master/360view.gif)
 

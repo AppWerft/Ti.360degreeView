@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
+    <url>http://</url>
     <id>de.appwerft.view360</id>
     <name>Ti.360°View</name>
     <version>1.0</version>
     <publisher>fuerst</publisher>
-    <url>http://</url>
     <description>undefined</description>
     <copyright>2015 by fuerst</copyright>
     <icon>appicon.png</icon>

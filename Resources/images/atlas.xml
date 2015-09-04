@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+convert *.png -append atlas.png (append vertically)
+convert *.png +append atlas.png (append horizontally) 
+convert *.JPG -append atlas.JPG (append vertically)
+
+-->
+
+
+<Imageset Name="Objects" Imagefile="atlas.png" NativeHorzRes="14000" NativeVertRes="332" AutoScaled="false">
+	<Image Name="1" XPos="0" YPos="0" Width="500" Height="332"/>
+	<Image Name="2" XPos="500" YPos="0" Width="500" Height="332"/>
+	<Image Name="3" XPos="1000" YPos="0" Width="500" Height="332"/>
+	<Image Name="4" XPos="1500" YPos="0" Width="500" Height="332"/>
+	<Image Name="5" XPos="2000" YPos="0" Width="500" Height="332"/>
+	<Image Name="6" XPos="2500" YPos="0" Width="500" Height="332"/>
+	<Image Name="7" XPos="3000" YPos="0" Width="500" Height="332"/>
+	<Image Name="8" XPos="3500" YPos="0" Width="500" Height="332"/>
+	<Image Name="9" XPos="4000" YPos="0" Width="500" Height="332"/>
+	<Image Name="10" XPos="4500" YPos="0" Width="500" Height="332"/>
+	<Image Name="11" XPos="5000" YPos="0" Width="500" Height="332"/>
+	<Image Name="12" XPos="5500" YPos="0" Width="500" Height="332"/>
+	<Image Name="13" XPos="6000" YPos="0" Width="500" Height="332"/>
+	<Image Name="14" XPos="6500" YPos="0" Width="500" Height="332"/>
+	<Image Name="15" XPos="7000" YPos="0" Width="500" Height="332"/>
+	<Image Name="16" XPos="7500" YPos="0" Width="500" Height="332"/>
+	<Image Name="17" XPos="8000" YPos="0" Width="500" Height="332"/>
+	<Image Name="18" XPos="8500" YPos="0" Width="500" Height="332"/>
+	<Image Name="19" XPos="9000" YPos="0" Width="500" Height="332"/>
+	<Image Name="20" XPos="9500" YPos="0" Width="500" Height="332"/>
+	<Image Name="21" XPos="10000" YPos="0" Width="500" Height="332"/>
+	<Image Name="22" XPos="10500" YPos="0" Width="500" Height="332"/>
+	<Image Name="23" XPos="11000" YPos="0" Width="500" Height="332"/>
+	<Image Name="24" XPos="11500" YPos="0" Width="500" Height="332"/>
+	<Image Name="25" XPos="12000" YPos="0" Width="500" Height="332"/>
+	<Image Name="26" XPos="12500" YPos="0" Width="500" Height="332"/>
+	<Image Name="27" XPos="13000" YPos="0" Width="500" Height="332"/>
+	<Image Name="28" XPos="13500" YPos="0" Width="500" Height="332"/>
+</Imageset>

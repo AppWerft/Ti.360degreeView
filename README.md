@@ -1,4 +1,4 @@
-### Ti.360°VIEW ###
+### Ti.360°VIEW ###![](https://camo.githubusercontent.com/0708b17f8cc6b5aa19d0cf5ef38e978c3cfc38e4/687474703a2f2f696d672e736869656c64732e696f2f62616467652f67697474696f2d312e302e302d3030423443432e737667)
 
 This module allows to display 360° product photos. Currently we use single images. In futures we can use sprites.
 

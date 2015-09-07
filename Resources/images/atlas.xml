@@ -4,6 +4,8 @@ convert *.png -append atlas.png (append vertically)
 convert *.png +append atlas.png (append horizontally) 
 convert *.JPG -append atlas.JPG (append vertically)
 
+http://dfsq.github.io/xml2json/
+
 -->
 
 

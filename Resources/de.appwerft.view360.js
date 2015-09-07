@@ -1,11 +1,25 @@
-var BIGWIDTH = 50000;
+const BIGWIDTH = 50000,
+    ARRAY = 0,
+    ATLAS = 1;
+
 var Module = function() {
 	var args = arguments[0] || {};
 	var lastindex = 0;
 	var self = Ti.UI.createView();
-	self.add(Ti.UI.createImageView({
-		image : args.images[lastindex]
-	}));
+	if ( typeof args.images == 'object' && Array.isArray(args.images)) {
+		var type = ARRAY;
+	} else if ( typeof args.images == 'string') {
+		var atlasfile = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, args.images);
+		if (atlasfile.exists()) {
+			var type = ATLAS;
+			var doc = Ti.XML.parseString(atlasfile.read().text);
+			// TODO parsing atlas (sprites)
+		};
+	}
+	if (type == ARRAY)
+		self.add(Ti.UI.createImageView({
+			image : args.images[lastindex]
+		}));
 	Object.getOwnPropertyNames(args).forEach(function(prop) {
 		if (prop != 'images') {
 			self[prop] = args[prop];
@@ -32,7 +46,9 @@ var Module = function() {
 		console.log(_e.x);
 		var ndx = (Math.floor((_e.x / args.width) * args.images.length) + args.images.length) % args.images.length;
 		if (ndx != lastindex) {
-			self.children[0].setImage(args.images[ndx]);
+			if (type == ARRAY) {
+				self.children[0].setImage(args.images[ndx]);
+			}
 			lastindex = ndx;
 		}
 	});

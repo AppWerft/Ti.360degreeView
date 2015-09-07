@@ -1,14 +1,17 @@
 {
   "name": "Ti.360degreeView",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "360° View for product images (taken from round table)",
-  "main": "index.js",
+  "main": "de.appwerft.view360.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/AppWerft/Ti.360degreeView.git"
+  },
+  "nativeDependencies": {
+    "XMLTools" : "*"
   },
   "titaniumManifest": {
     "guid": "5892bd76-346e-05c1-114c-c718f1dc260c",

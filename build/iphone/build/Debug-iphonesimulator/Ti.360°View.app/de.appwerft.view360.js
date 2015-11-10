@@ -1,1 +1,0 @@
-/Users/fuerst/Documents/Appcelerator_Studio_Workspace/Ti.360°View/Resources/de.appwerft.view360.js

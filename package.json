@@ -1,6 +1,6 @@
 {
   "name": "Ti.360degreeView",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "360° View for product images (taken from round table)",
   "main": "de.appwerft.view360.js",
   "scripts": {
